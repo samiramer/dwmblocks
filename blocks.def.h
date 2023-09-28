@@ -4,6 +4,7 @@ static const Block blocks[] = {
 /*  {"", "dwm_vpnstatus", 5, 0},*/
 /*  {"", "dwm_pomo", 1, 0},*/
   {" ", "dwm_volume", 0, 10},
+  {"", "vpn_status", 5, 0},
 	{"󰍛 ", "free -h | awk '/^Mem/ { print $3 }' | sed s/i//g", 5, 0},
 
 	{"󱑍 ", "date '+%b %d %I:%M:%S %p'", 1, 0},
